@@ -1,52 +1,53 @@
-# Hi, I'm Greg!
-<a href="https://linkedin.com/in/gregqlewis"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+# Greg Lewis - Cybersecurity Portfolio
 
-I am a Security Analyst with a recently earned Master's in Cybersecurity Technology. Passionate about technology and adept at solving complex problems, I am committed to protecting digital assets and staying ahead of emerging cyber threats.
+## About Me
+Security Analyst with 4.5 years of cybersecurity experience supporting government sector operations. Specialized in threat hunting, alert triage, incident response, and security engineering. Expanding my expertise into cloud security engineering through hands-on projects in purple team operations, SIEM engineering, and security automation.
 
-## Objective
+**Current Role:** Security Analyst (Government Contract)  
+**Education:** M.S. Cybersecurity Technology - UMGC  
+**Certifications:** Security+ CE | Public Trust Clearance  
+**Location:** DMV Area
 
-To leverage my cybersecurity expertise and passion for technology in pursuit of becoming a Cloud Security Engineer, while using my GitHub to document and showcase projects that demonstrate my ongoing skill development and commitment to the field.
-
-## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
-
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
-
-## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
-
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
-</div>
-
-### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
-</div>
-
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-</div>
-
-## Certifications
-<div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-</div>
+## Technical Skills
+- **Security Operations:** Threat Hunting, Incident Response, Alert Triage, Detection Engineering
+- **SIEM/Logging:** Wazuh, Graylog, OpenSearch, Splunk
+- **Cloud & Infrastructure:** AWS, Terraform, Unraid, Docker, Tailscale VPN
+- **Security Tools:** Kali Linux, Metasploit, Nmap, Wireshark
+- **Compliance & Frameworks:** ISO27001-2022
 
 ## Projects
-- Detection Lab
-- SOC Automation Project
+
+### 🔴🔵 Purple Team Home Lab
+A comprehensive cybersecurity testing environment built on Unraid infrastructure for developing offensive and defensive security skills.
+- **Attack Surface:** Kali Linux (Raspberry Pi 4), Metasploitable 2
+- **Detection Stack:** Wazuh SIEM, Graylog, OpenSearch, MongoDB
+- **Focus Areas:** Vulnerability assessment, attack simulation, detection rule development
+- [View Project](#) | [Read Blog Post](https://gregqlewis.com)
+
+### 🛡️ Incident Response Documentation
+Enterprise-grade procedures and playbooks for common security scenarios.
+- Structured decision trees for rapid response
+- Cloud-specific detection and containment strategies
+- [View Documentation](#)
+
+### 🏠 Secure Home Network Architecture
+Production-grade network security implementation demonstrating defense-in-depth principles.
+- Tailscale VPN for secure remote access
+- Network segmentation and IoT isolation
+- Nextcloud deployment with security hardening
+- [View Documentation](#) | [Blog Post](https://gregqlewis.com)
+
+### ☁️ Cloud Security Engineering Projects
+Building practical experience with cloud-native security controls and automation.
+- [Projects in development]
+
+## Blog
+Technical writeups and documentation of my learning journey at [gregqlewis.com](https://gregqlewis.com)
+
+## Connect
+- **LinkedIn:** www.linkedin.com/in/gregqlewis
+- **Blog:** [gregqlewis.com](https://gregqlewis.com)
+- **Email:** greg@gregqlewis.com
+
+---
+*Advancing my cybersecurity expertise with focus on cloud security engineering*
