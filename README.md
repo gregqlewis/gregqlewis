@@ -5,7 +5,7 @@ Security Analyst with 4.5 years of cybersecurity experience supporting governmen
 
 **Current Role:** Security Analyst (Government Contract)  
 **Education:** M.S. Cybersecurity Technology - UMGC  
-**Certifications:** Security+ CE | Public Trust Clearance  
+**Certifications:** Security+ CE | Public Trust  
 **Location:** DMV Area
 
 ## Technical Skills
