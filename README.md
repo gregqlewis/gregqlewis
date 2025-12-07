@@ -3,9 +3,9 @@
 ## About Me
 Security Analyst with 4.5 years of cybersecurity experience supporting government sector operations. Specialized in threat hunting, alert triage, incident response, and security engineering. Expanding my expertise into cloud security engineering through hands-on projects in purple team operations, SIEM engineering, and security automation.
 
-**Current Role:** Security Analyst (Government Contract)  
+**Current Role:** Security Analyst 
 **Education:** M.S. Cybersecurity Technology - UMGC  
-**Certifications:** Security+ CE | Public Trust  
+**Certifications:** Security+ CE 
 **Location:** DMV Area
 
 ## Technical Skills
