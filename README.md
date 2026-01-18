@@ -4,7 +4,7 @@
 
 Security Analyst with 4 years of cybersecurity experience supporting government sector operations. Specialized in threat hunting, alert triage, incident response, and cloud security engineering. Currently transitioning from SOC operations to Cloud Security Engineer roles through hands-on multi-cloud implementations, purple team operations, and Infrastructure as Code automation.
 
-**Current Role:** SOC Analyst
+**Current Role:** SOC Analyst  
 **Education:** M.S. Cybersecurity Technology - UMGC  
 **Certifications:** Security+ CE  
 **Location:** DMV Area
