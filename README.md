@@ -7,7 +7,6 @@ SOC Analyst with 4+ years of cybersecurity experience in federal contracting. Sp
 **Current Focus:** CISSP certification preparation (Exam: September 2026) integrated with practical lab implementations  
 **Education:** M.S. Cybersecurity Technology - UMGC  
 **Certifications:** Security+ CE, CISSP (In Progress)  
-**Clearance:** Public Trust  
 **Location:** DMV Area
 
 ---
