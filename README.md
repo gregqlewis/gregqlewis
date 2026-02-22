@@ -71,7 +71,7 @@ Production-quality cloud security implementations across AWS and Azure, built en
 
 **Tech Stack:** Terraform, AWS IAM/CloudTrail, Azure AD/RBAC/Activity Logs, Python
 
-**[View Repository →](https://github.com/gregqlewis/cloud-security-labs)** | **[AWS vs Azure IAM Analysis →](https://github.com/gregqlewis/cloud-security-labs/blob/main/docs/aws-vs-azure-iam-comparison.md)**
+**[View Repository →](https://github.com/gregqlewis/cloud-security-labs)** | **[AWS vs Azure IAM Analysis →](https://github.com/gregqlewis/cloud-security-labs/blob/master/docs/aws-vs-azure-iam-comparison.md)**
 
 ---
 
