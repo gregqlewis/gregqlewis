@@ -33,6 +33,9 @@ SOC Analyst with 4+ years of cybersecurity experience in federal contracting. Sp
 ### Cloud Security
 AWS IAM, Azure AD/RBAC, CloudTrail, Azure Activity Logs, IAM Access Analyzer, Security Groups, NSGs
 
+### AI/LLM Security
+Adversarial ML, LLM Red Teaming, Garak, OWASP LLM Top 10, MITRE ATLAS, Prompt Injection, Jailbreak Testing
+
 ### Infrastructure as Code
 Terraform (AWS & Azure multi-cloud implementations)
 
@@ -46,11 +49,32 @@ Wazuh, Graylog, OpenSearch, Splunk, CrowdStrike Falcon, Tenable, Zscaler
 Kali Linux, Metasploit, Nmap, Wireshark, Docker, Unraid
 
 ### Compliance & Frameworks
-ISO27001:2022, NIST Cybersecurity Framework, CIS Benchmarks, MITRE ATT&CK
+ISO27001:2022, NIST Cybersecurity Framework, NIST AI RMF, CIS Benchmarks, MITRE ATT&CK, MITRE ATLAS
 
 ---
 
 ## Featured Projects
+
+### 🤖 AI Security Lab
+**Adversarial testing of LLMs deployed on AWS Bedrock using Garak**
+
+Hands-on AI red team assessment targeting Meta Llama 3.1 8B Instruct via AWS Bedrock, with findings mapped to OWASP LLM Top 10 and MITRE ATLAS. Built as a growing lab with additional tools and targets planned.
+
+**Completed Probe Suites:**
+- ✅ **DAN Jailbreak:** 100% attack success rate — complete guardrail bypass
+- ✅ **Prompt Injection:** Up to 70.96% instruction hijacking success rate
+- ✅ **Encoding Evasion:** Largely resilient; NATO phonetic (14.77%) and Zalgo (9.45%) as exceptions
+- ✅ **Training Data Leakage:** Cloze-style attacks unlocked memorized content at 3–11%
+
+**Key Finding:** Model safety failures are behavioral, not perceptual — encoding-based evasion largely failed while direct instruction manipulation succeeded at high rates, indicating the root vulnerability is instruction-following compliance rather than content recognition.
+
+**Tech Stack:** Garak v0.14.0, AWS Bedrock, Kali Linux, OWASP LLM Top 10, MITRE ATLAS
+
+**Planned Additions:** AWS Bedrock Guardrails effectiveness testing, PyRIT, Promptfoo, additional model targets
+
+**[View Repository →](https://github.com/gregqlewis/ai-security-lab)**
+
+---
 
 ### ☁️ Cloud Security Labs
 **Multi-cloud security engineering portfolio demonstrating IAM architecture, least-privilege design, and Infrastructure as Code automation**
@@ -81,7 +105,7 @@ Production-quality cloud security implementations across AWS and Azure, built en
 Production-grade purple team infrastructure built on Unraid, showcasing detection engineering and attack simulation expertise.
 
 **Architecture:**
-- **Attack Platform:** Kali Linux (Raspberry Pi 4), Metasploitable 3, DVWA
+- **Attack Platform:** Kali Linux, Metasploitable 3, DVWA
 - **Detection Stack:** Wazuh SIEM, Graylog, OpenSearch, MongoDB
 - **Methodology:** MITRE ATT&CK technique mapping with custom detection rules
 - **Coverage:** 20+ techniques across Initial Access, Privilege Escalation, Credential Access, Lateral Movement
@@ -92,7 +116,7 @@ Production-grade purple team infrastructure built on Unraid, showcasing detectio
 - Attack scenario documentation with detection validation
 - Network protocol security analysis (SSH, FTP, NFS, SMB, Docker API)
 
-**Planned Additions (CISSP Study Integration):**
+**Planned Additions:**
 - 📋 Network detection layer (Suricata) for SMB/RPC enumeration gaps
 - 📋 Cryptographic implementations (TLS for Docker API, encrypted credentials)
 - 📋 Formal penetration test report demonstrating assessment methodology
@@ -105,8 +129,6 @@ Production-grade purple team infrastructure built on Unraid, showcasing detectio
 
 Personal blog at **[gregqlewis.com](https://gregqlewis.com)** exploring the intersection of faith and technology in cybersecurity.
 
-*First technical post coming Q2 2026 - documenting CISSP study methodology with hands-on lab implementations.*
-
 ---
 
 ## Current Focus (2026)
@@ -116,9 +138,10 @@ Personal blog at **[gregqlewis.com](https://gregqlewis.com)** exploring the inte
 **Study Approach:** Integrating Sybex Official Study Guide with hands-on purple team lab exercises to reinforce security architecture, cryptography, IAM, and network security concepts.
 
 ### Secondary Goal: Cloud Security Skill Development
-Building production-quality cloud security implementations to support future Cloud Security Engineer progression within federal healthcare sector.
+Building production-quality cloud security implementations to support future Cloud Security Engineer progression.
 
 ### Active Projects
+- AI Security Lab: AWS Bedrock Guardrails effectiveness testing and additional probe suites
 - Purple Team Lab: MITRE ATT&CK technique coverage expansion
 - Cloud Security Labs: IAM architecture and least-privilege design refinement
 - CISSP study integration with practical lab scenarios
