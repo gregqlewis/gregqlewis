@@ -76,6 +76,35 @@ Hands-on AI red team assessment targeting Meta Llama 3.1 8B Instruct via AWS Bed
 
 ---
 
+### 🔍 Cloud Attack Detection Lab
+**End-to-end cloud detection engineering lab — attack simulation, custom detection rules, and incident response playbooks on AWS**
+
+A purple team detection engineering workflow built from scratch: simulate real AWS attack techniques, capture evidence across CloudTrail, VPC Flow Logs, and GuardDuty, build custom Sigma rules and Wazuh detections, and document incident response. All four attack scenarios are complete with confirmed alerts firing in Wazuh.
+
+**Attack Scenarios:**
+
+| Scenario | MITRE ATT&CK | Status |
+|---|---|---|
+| IAM Enumeration | T1069.003 | ✅ Complete |
+| Privilege Escalation via Role Abuse | T1078.004 | ✅ Complete |
+| Credential Theft | T1552.005 | ✅ Complete |
+| S3 Data Exfiltration | T1530 | ✅ Complete |
+| Unauthorized API Usage | T1106 | 🔜 Planned |
+
+**Detection Engineering:**
+- ✅ 4 Sigma rules (one per TTP, MITRE ATT&CK mapped)
+- ✅ Custom Wazuh rules 100201–100204 with MITRE tags — 6 confirmed alert hits across all TTPs
+- ✅ OpenSearch DQL queries per attack scenario
+- ✅ IR playbooks: IAM compromise and S3 exfiltration response
+
+**Bonus:** Includes an [interactive Python Bootcamp](https://gregqlewis.com/cloud-attack-detection-lab/bootcamp/) — a React app teaching Python fundamentals through real CloudTrail events and boto3 patterns from the lab's attack scripts.
+
+**Tech Stack:** AWS (CloudTrail, GuardDuty, VPC Flow Logs, S3, IAM), Terraform, Python/boto3, Sigma, Wazuh 4.14.3, OpenSearch
+
+**[View Repository →](https://github.com/gregqlewis/cloud-attack-detection-lab)** | **[Python Bootcamp →](https://gregqlewis.com/cloud-attack-detection-lab/bootcamp/)**
+
+---
+
 ### ☁️ Cloud Security Labs
 **Multi-cloud security engineering portfolio demonstrating IAM architecture, least-privilege design, and Infrastructure as Code automation**
 
@@ -141,6 +170,7 @@ Personal blog at **[gregqlewis.com](https://gregqlewis.com)** exploring the inte
 Building production-quality cloud security implementations to support future Cloud Security Engineer progression.
 
 ### Active Projects
+- Cloud Attack Detection Lab: Unauthorized API Usage scenario (T1106) and blog post
 - AI Security Lab: AWS Bedrock Guardrails effectiveness testing and additional probe suites
 - Purple Team Lab: MITRE ATT&CK technique coverage expansion
 - Cloud Security Labs: IAM architecture and least-privilege design refinement
