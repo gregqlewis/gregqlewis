@@ -1,6 +1,6 @@
-# Greg Lewis — Cloud Security Engineer
+# Greg Lewis — Security Engineer
 
-Cloud security engineer in federal IT, working where detection engineering, compliance automation, and AI security meet. I build in the cloud, attack what I build, and write detections for what I find. This repo is where that work lives outside my day job.
+Security engineer in federal IT, focused on cloud and working where detection engineering, compliance automation, and AI security meet. I build in the cloud, attack what I build, and write detections for what I find. This repo is where that work lives outside my day job.
 
 **Focus areas:** AWS security architecture · detection engineering · AI/LLM security · FedRAMP & NIST 800-53 in practice
 **Education:** M.S. Cybersecurity Technology, UMGC
@@ -11,7 +11,7 @@ Cloud security engineer in federal IT, working where detection engineering, comp
 
 ## What I Do
 
-**Cloud Security Engineer**, Federal IT Contractor (Current)
+**Security Engineer**, Federal IT Contractor (Current)
 - Security engineering for AWS workloads in a federal environment: identity, logging, threat detection, and posture management
 - Mapping technical controls to NIST 800-53 and FedRAMP requirements, and automating the evidence where possible
 - Security review of AI-enabled systems
