@@ -48,8 +48,6 @@ Four AWS attack techniques simulated and captured across CloudTrail, VPC Flow Lo
 | S3 Data Exfiltration | T1530 | ✅ |
 | Unauthorized API Usage | T1106 | 🔜 |
 
-Includes an [interactive Python bootcamp](https://gregqlewis.com/cloud-attack-detection-lab/bootcamp/) that teaches Python through real CloudTrail events and the lab's boto3 attack scripts.
-
 **[Repository →](https://github.com/gregqlewis/cloud-attack-detection-lab)**
 
 ---
