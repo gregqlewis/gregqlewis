@@ -11,7 +11,7 @@ Security engineer in federal IT, focused on cloud and working where detection en
 
 ## What I Do
 
-**Security Engineer**, Federal IT Contractor (Current)
+**Security Engineer**, Federal IT Contractor (Current), serving as security and compliance engineer on a federal contract
 - Security engineering for AWS workloads in a federal environment: identity, logging, threat detection, and posture management
 - Mapping technical controls to NIST 800-53 and FedRAMP requirements, and automating the evidence where possible
 - Security review of AI-enabled systems
